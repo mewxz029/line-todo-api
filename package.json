@@ -1,0 +1,24 @@
+{
+  "name": "echo-bot",
+  "version": "0.0.0",
+  "description": "An example LINE bot just to echo messages",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.3",
+    "ngrok": "^4.3.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
